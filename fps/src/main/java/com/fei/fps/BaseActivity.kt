@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.annotation.LayoutRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import com.fei.sentry.util.setStatusBarColor
+import com.fei.fps.util.setStatusBarColor
 
 abstract class BaseActivity(@LayoutRes resId: Int) : AppCompatActivity(resId) {
 

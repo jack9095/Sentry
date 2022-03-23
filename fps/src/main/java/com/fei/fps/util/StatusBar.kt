@@ -1,4 +1,4 @@
-package com.fei.sentry.util
+package com.fei.fps.util
 
 import android.app.Activity
 import androidx.annotation.ColorInt
