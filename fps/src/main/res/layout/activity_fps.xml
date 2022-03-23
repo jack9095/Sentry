@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/fpsValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:textColor="@android:color/holo_red_light"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/fpsStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start"/>
+
+    <Button
+        android:id="@+id/fpsStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
